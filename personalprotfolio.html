@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="icon" href="favicon-16x16.png">
+    <link rel="stylesheet" href="/protfolio.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+
+    <script src="https://kit.fontawesome.com/a8d54292bd.js" crossorigin="anonymous"></script>
+  
+
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <h1 class="prot"><span class="p"><span>S</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DESIGNER</p>
+                <h1>Hi, I'AM <br><span>MUHAMMAD SHAMEEM</span>
+
+            </div>
+            <div class="SHADOW"></div>
+        </div>
+
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row ">
+                <div class="col-5 ">
+                    <img src="IMG.jpg" alt="">
+                </div>
+                <div class="col-7">
+                    <h1 class="sub-title">About me</h1>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-heading active-heading" onclick="opentab('Personal')">Personal</p>
+                        <p class="tab-heading" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-heading" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-content" id="Personal">
+                        <ul>
+                            <li><span>Name</span> <br>MUHAMMAD SHAMEEM</li>
+                            <li><span>D.O.B</span> <br> 04 JULY 2000</li>
+                            <li><span>CALL</span> <br> +91 9847797807</li>
+                            <li><span>ADDRESS</span> <br> PERAMBATH(H),MAMPATTUMOOLA (PO) 6793321</li>
+                            <li><span>E-mail</span> <br>shameemvpk68@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>HTML,CSS</span> <br>WEB DESIGNING</li>
+                            <li><span>GRAPHIC DESIGNING</span> <br> 3D MODELING <br>LAYOUT DSIGN</li>
+                                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>10TH standard</span> <br>GHSS PULLANGODE</li>
+                            <li><span>12TH standard</span> <br> GHSS PULLANGODE</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- --------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DESIGNING</h2>
+                    <p>I’m Muhammad Shameem, a web designer dedicated to transforming ideas into engaging,
+                         functional websites. With a solid foundation in HTML, CSS, and JavaScript, 
+                         I craft responsive and dynamic web designs that prioritize user experience and accessibility. My approach combines creativity with technical expertise, ensuring each project is not only visually striking but also efficient and user-centric
+                        <br>
+                        <a href="#">more..</a>
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>GRAPHIC DESIGNING</h2>
+                    <p>I’m Muhammad Shameem, a skilled web designer dedicated to transforming ideas into engaging, 
+                        functional websites. With a solid foundation in HTML, CSS, and JavaScript, 
+                        I craft responsive and dynamic web designs that prioritize user experience and accessibility. My approach combines creativity with technical expertise, ensuring each project is not only visually striking but also efficient and user-centric
+                        <br>
+                        <a href="#">more..</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------- project--- ------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1><BR><br>1.PERSONAL-PORTFLIO</BR><BR>2.BUISINESS CARD CREATION</BR>
+            <div class="work-list">
+                <div class="work">
+                
+            
+                    
+                       
+                    </div>
+                </div>
+                
+            
+                </div>
+
+            </div>
+
+            <a href="#header" class="button">SEE AGAIN</a>
+
+
+
+        </div>
+    </div>
+    <!-- -------------contact----------- -------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shameemvpk68@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9847797807 </p>
+                    <div class="social-icons">
+                        
+                        <a
+                            href="https://www.linkedin.com/in/MUHAMMAD SHAMEEM-50926130a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/MUHAMMADSHAMEEM123"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" id="name" placeholder="ENTER YOUR NAME">
+                        <input type="email" name="Email" id="email" placeholder="@gmail.com">
+                        <textarea name="message" id="message" rows="6" placeholder="TEXT HERE"></textarea>
+                        <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-heading");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(name) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-heading");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-content");
+            }
+            event.currentTarget.classList.add("active-heading")
+            document.getElementById(name).classList.add("active-content");
+        }
+
+
+        // -------sidemenu------------
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "lLQPR4fa_lTwxyhYs",
+            });
+        })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js">
+
+    </script>
+</body>
+
+</html>
